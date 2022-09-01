@@ -1,5 +1,16 @@
 # django-app
 djangoアプリのベース
 
-参考：
-https://note.com/digiangler777/n/n5af9bf35b0c0
+コンテナ立ち上げ
+```
+docker-compose up -d
+```
+
+プロジェクト作成
+```
+docker-compose run --rm app sh -c "django-admin startproject app ."
+```
+
+http://localhost:8000
+
+![image](https://user-images.githubusercontent.com/79821503/187807905-5413b270-4961-4ad5-9782-7fb62f97c9aa.png)
