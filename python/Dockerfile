@@ -12,7 +12,9 @@ ENV TERM xterm
 
 RUN mkdir /workspace
 WORKDIR /workspace
-ADD requirements.txt /workspace/
+ADD ./python/requirements.txt /workspace/
+RUN pip install --upgrade pip
+RUN pip install -U setuptools
 RUN pip install -r requirements.txt
 ADD . /workspace/
 
