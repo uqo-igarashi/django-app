@@ -1,6 +1,12 @@
 # django-app
 djangoアプリのベース
 
+構成
+```
+Nginx + Django + MySQL
+```
+
+
 コンテナ立ち上げ
 ```
 docker-compose up -d
