@@ -14,7 +14,7 @@ docker-compose up -d
 
 プロジェクト作成
 ```
-docker-compose run --rm config sh -c "django-admin startproject config ."
+docker-compose run --rm app sh -c "django-admin startproject config ."
 ```
 
 再起動
